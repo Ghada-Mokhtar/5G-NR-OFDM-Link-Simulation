@@ -129,7 +129,7 @@ text(SNR_NLOS_dB, yLimits(2)*0.5, ' NLOS point (~7 dB)', 'Rotation', 90);
 text(SNR_LOS_dB, yLimits(2)*0.5, ' LOS point (~38.7 dB)', 'Rotation', 90);
 
 grid on; xlabel('SNR (dB)'); ylabel('Bit Error Rate (BER)');
-title(sprintf('%d-QAM OFDM over AWGN — Simulated vs Theoretical BER', M));
+title(sprintf('%d-QAM OFDM over AWGN â€” Simulated vs Theoretical BER', M));
 legend('Simulated BER', 'Theoretical BER (AWGN)', 'Location', 'southwest');
 hold off;
 
